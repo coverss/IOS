@@ -38,7 +38,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
         catch
         {
-            print("ERROR")
+            print("Error")
         }
     }
 
