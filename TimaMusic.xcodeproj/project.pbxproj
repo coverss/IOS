@@ -7,22 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223D929B1FCC784900E6E7EE /* icons8-music-record-34.png in Resources */ = {isa = PBXBuildFile; fileRef = 223D92991FCC784800E6E7EE /* icons8-music-record-34.png */; };
+		223D929D1FCC788000E6E7EE /* icons8-music-library-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 223D929C1FCC787F00E6E7EE /* icons8-music-library-30.png */; };
+		223D92A71FCC7FDC00E6E7EE /* papers.co-am22-tycho-art-cover-music-minimal-art-dark-33-iphone6-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 223D92A61FCC7FDA00E6E7EE /* papers.co-am22-tycho-art-cover-music-minimal-art-dark-33-iphone6-wallpaper.jpg */; };
+		223D92BC1FCC8EE800E6E7EE /* One Republic - Counting Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B01FCC8EE800E6E7EE /* One Republic - Counting Stars.mp3 */; };
+		223D92BD1FCC8EE800E6E7EE /* One Republic - If I Lose Myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B11FCC8EE800E6E7EE /* One Republic - If I Lose Myself.mp3 */; };
+		223D92BE1FCC8EE800E6E7EE /* One Republic - All Fall Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B21FCC8EE800E6E7EE /* One Republic - All Fall Down.mp3 */; };
+		223D92BF1FCC8EE800E6E7EE /* One Republic - Made for you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B31FCC8EE800E6E7EE /* One Republic - Made for you.mp3 */; };
+		223D92C01FCC8EE800E6E7EE /* One Republic - All The Right Moves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B41FCC8EE800E6E7EE /* One Republic - All The Right Moves.mp3 */; };
+		223D92C11FCC8EE800E6E7EE /* One Republic - Dreaming Out Loud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B51FCC8EE800E6E7EE /* One Republic - Dreaming Out Loud.mp3 */; };
+		223D92C21FCC8EE800E6E7EE /* One Republic - Say (All I Need).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B61FCC8EE800E6E7EE /* One Republic - Say (All I Need).mp3 */; };
+		223D92C31FCC8EE800E6E7EE /* One Republic - Burning Bridges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B71FCC8EE800E6E7EE /* One Republic - Burning Bridges.mp3 */; };
+		223D92C41FCC8EE800E6E7EE /* One Republic - Mercy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B81FCC8EE800E6E7EE /* One Republic - Mercy.mp3 */; };
+		223D92C51FCC8EE800E6E7EE /* One Republic - Good Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92B91FCC8EE800E6E7EE /* One Republic - Good Life.mp3 */; };
+		223D92C61FCC8EE800E6E7EE /* One Republic - Secrets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92BA1FCC8EE800E6E7EE /* One Republic - Secrets.mp3 */; };
+		223D92C71FCC8EE800E6E7EE /* One Republic - Stop And Stare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 223D92BB1FCC8EE800E6E7EE /* One Republic - Stop And Stare.mp3 */; };
 		22C005971FB86E6C0067DF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C005961FB86E6C0067DF8A /* AppDelegate.swift */; };
 		22C005991FB86E6C0067DF8A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C005981FB86E6C0067DF8A /* FirstViewController.swift */; };
 		22C0059B1FB86E6C0067DF8A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0059A1FB86E6C0067DF8A /* SecondViewController.swift */; };
 		22C0059E1FB86E6C0067DF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C0059C1FB86E6C0067DF8A /* Main.storyboard */; };
 		22C005A01FB86E6C0067DF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C0059F1FB86E6C0067DF8A /* Assets.xcassets */; };
 		22C005A31FB86E6C0067DF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C005A11FB86E6C0067DF8A /* LaunchScreen.storyboard */; };
-		22C005B41FB873010067DF8A /* Lana Del Rey - West Coast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005AD1FB873010067DF8A /* Lana Del Rey - West Coast.mp3 */; };
-		22C005B51FB873010067DF8A /* Linkin Park - My December.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005AE1FB873010067DF8A /* Linkin Park - My December.mp3 */; };
-		22C005B61FB873010067DF8A /* Oh Wonder - Drive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005AF1FB873010067DF8A /* Oh Wonder - Drive.mp3 */; };
-		22C005B71FB873010067DF8A /* One Republic - Counting Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005B01FB873010067DF8A /* One Republic - Counting Stars.mp3 */; };
-		22C005B81FB873010067DF8A /* The Chainsmokers - Something Just Like This.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005B11FB873010067DF8A /* The Chainsmokers - Something Just Like This.mp3 */; };
-		22C005B91FB873010067DF8A /* The Chainsmokers feat. Halsey - Closer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005B21FB873010067DF8A /* The Chainsmokers feat. Halsey - Closer.mp3 */; };
-		22C005BA1FB873010067DF8A /* Weeknd - Secrets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C005B31FB873010067DF8A /* Weeknd - Secrets.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223D92991FCC784800E6E7EE /* icons8-music-record-34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-music-record-34.png"; sourceTree = "<group>"; };
+		223D929C1FCC787F00E6E7EE /* icons8-music-library-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-music-library-30.png"; sourceTree = "<group>"; };
+		223D92A61FCC7FDA00E6E7EE /* papers.co-am22-tycho-art-cover-music-minimal-art-dark-33-iphone6-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "papers.co-am22-tycho-art-cover-music-minimal-art-dark-33-iphone6-wallpaper.jpg"; sourceTree = "<group>"; };
+		223D92B01FCC8EE800E6E7EE /* One Republic - Counting Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Counting Stars.mp3"; sourceTree = "<group>"; };
+		223D92B11FCC8EE800E6E7EE /* One Republic - If I Lose Myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - If I Lose Myself.mp3"; sourceTree = "<group>"; };
+		223D92B21FCC8EE800E6E7EE /* One Republic - All Fall Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - All Fall Down.mp3"; sourceTree = "<group>"; };
+		223D92B31FCC8EE800E6E7EE /* One Republic - Made for you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Made for you.mp3"; sourceTree = "<group>"; };
+		223D92B41FCC8EE800E6E7EE /* One Republic - All The Right Moves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - All The Right Moves.mp3"; sourceTree = "<group>"; };
+		223D92B51FCC8EE800E6E7EE /* One Republic - Dreaming Out Loud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Dreaming Out Loud.mp3"; sourceTree = "<group>"; };
+		223D92B61FCC8EE800E6E7EE /* One Republic - Say (All I Need).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Say (All I Need).mp3"; sourceTree = "<group>"; };
+		223D92B71FCC8EE800E6E7EE /* One Republic - Burning Bridges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Burning Bridges.mp3"; sourceTree = "<group>"; };
+		223D92B81FCC8EE800E6E7EE /* One Republic - Mercy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Mercy.mp3"; sourceTree = "<group>"; };
+		223D92B91FCC8EE800E6E7EE /* One Republic - Good Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Good Life.mp3"; sourceTree = "<group>"; };
+		223D92BA1FCC8EE800E6E7EE /* One Republic - Secrets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Secrets.mp3"; sourceTree = "<group>"; };
+		223D92BB1FCC8EE800E6E7EE /* One Republic - Stop And Stare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Stop And Stare.mp3"; sourceTree = "<group>"; };
 		22C005931FB86E6C0067DF8A /* TimaMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimaMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C005961FB86E6C0067DF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C005981FB86E6C0067DF8A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,13 +54,6 @@
 		22C0059F1FB86E6C0067DF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C005A21FB86E6C0067DF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C005A41FB86E6C0067DF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C005AD1FB873010067DF8A /* Lana Del Rey - West Coast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lana Del Rey - West Coast.mp3"; sourceTree = "<group>"; };
-		22C005AE1FB873010067DF8A /* Linkin Park - My December.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Linkin Park - My December.mp3"; sourceTree = "<group>"; };
-		22C005AF1FB873010067DF8A /* Oh Wonder - Drive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oh Wonder - Drive.mp3"; sourceTree = "<group>"; };
-		22C005B01FB873010067DF8A /* One Republic - Counting Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Counting Stars.mp3"; sourceTree = "<group>"; };
-		22C005B11FB873010067DF8A /* The Chainsmokers - Something Just Like This.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Something Just Like This.mp3"; sourceTree = "<group>"; };
-		22C005B21FB873010067DF8A /* The Chainsmokers feat. Halsey - Closer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers feat. Halsey - Closer.mp3"; sourceTree = "<group>"; };
-		22C005B31FB873010067DF8A /* Weeknd - Secrets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Weeknd - Secrets.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223D92AF1FCC8EE800E6E7EE /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				223D92B01FCC8EE800E6E7EE /* One Republic - Counting Stars.mp3 */,
+				223D92B11FCC8EE800E6E7EE /* One Republic - If I Lose Myself.mp3 */,
+				223D92B21FCC8EE800E6E7EE /* One Republic - All Fall Down.mp3 */,
+				223D92B31FCC8EE800E6E7EE /* One Republic - Made for you.mp3 */,
+				223D92B41FCC8EE800E6E7EE /* One Republic - All The Right Moves.mp3 */,
+				223D92B51FCC8EE800E6E7EE /* One Republic - Dreaming Out Loud.mp3 */,
+				223D92B61FCC8EE800E6E7EE /* One Republic - Say (All I Need).mp3 */,
+				223D92B71FCC8EE800E6E7EE /* One Republic - Burning Bridges.mp3 */,
+				223D92B81FCC8EE800E6E7EE /* One Republic - Mercy.mp3 */,
+				223D92B91FCC8EE800E6E7EE /* One Republic - Good Life.mp3 */,
+				223D92BA1FCC8EE800E6E7EE /* One Republic - Secrets.mp3 */,
+				223D92BB1FCC8EE800E6E7EE /* One Republic - Stop And Stare.mp3 */,
+			);
+			name = Songs;
+			path = ../../Songs;
+			sourceTree = "<group>";
+		};
 		22C0058A1FB86E6C0067DF8A = {
 			isa = PBXGroup;
 			children = (
@@ -75,26 +111,14 @@
 				22C0059A1FB86E6C0067DF8A /* SecondViewController.swift */,
 				22C0059C1FB86E6C0067DF8A /* Main.storyboard */,
 				22C0059F1FB86E6C0067DF8A /* Assets.xcassets */,
+				223D92991FCC784800E6E7EE /* icons8-music-record-34.png */,
+				223D92A61FCC7FDA00E6E7EE /* papers.co-am22-tycho-art-cover-music-minimal-art-dark-33-iphone6-wallpaper.jpg */,
+				223D929C1FCC787F00E6E7EE /* icons8-music-library-30.png */,
 				22C005A11FB86E6C0067DF8A /* LaunchScreen.storyboard */,
+				223D92AF1FCC8EE800E6E7EE /* Songs */,
 				22C005A41FB86E6C0067DF8A /* Info.plist */,
-				22C005AC1FB873010067DF8A /* Songs */,
 			);
 			path = TimaMusic;
-			sourceTree = "<group>";
-		};
-		22C005AC1FB873010067DF8A /* Songs */ = {
-			isa = PBXGroup;
-			children = (
-				22C005AD1FB873010067DF8A /* Lana Del Rey - West Coast.mp3 */,
-				22C005AE1FB873010067DF8A /* Linkin Park - My December.mp3 */,
-				22C005AF1FB873010067DF8A /* Oh Wonder - Drive.mp3 */,
-				22C005B01FB873010067DF8A /* One Republic - Counting Stars.mp3 */,
-				22C005B11FB873010067DF8A /* The Chainsmokers - Something Just Like This.mp3 */,
-				22C005B21FB873010067DF8A /* The Chainsmokers feat. Halsey - Closer.mp3 */,
-				22C005B31FB873010067DF8A /* Weeknd - Secrets.mp3 */,
-			);
-			name = Songs;
-			path = ../../Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,16 +180,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223D929D1FCC788000E6E7EE /* icons8-music-library-30.png in Resources */,
+				223D92C41FCC8EE800E6E7EE /* One Republic - Mercy.mp3 in Resources */,
+				223D92BD1FCC8EE800E6E7EE /* One Republic - If I Lose Myself.mp3 in Resources */,
 				22C005A31FB86E6C0067DF8A /* LaunchScreen.storyboard in Resources */,
-				22C005B91FB873010067DF8A /* The Chainsmokers feat. Halsey - Closer.mp3 in Resources */,
-				22C005BA1FB873010067DF8A /* Weeknd - Secrets.mp3 in Resources */,
-				22C005B51FB873010067DF8A /* Linkin Park - My December.mp3 in Resources */,
-				22C005B61FB873010067DF8A /* Oh Wonder - Drive.mp3 in Resources */,
-				22C005B81FB873010067DF8A /* The Chainsmokers - Something Just Like This.mp3 in Resources */,
+				223D92BF1FCC8EE800E6E7EE /* One Republic - Made for you.mp3 in Resources */,
+				223D92C31FCC8EE800E6E7EE /* One Republic - Burning Bridges.mp3 in Resources */,
+				223D929B1FCC784900E6E7EE /* icons8-music-record-34.png in Resources */,
 				22C005A01FB86E6C0067DF8A /* Assets.xcassets in Resources */,
-				22C005B41FB873010067DF8A /* Lana Del Rey - West Coast.mp3 in Resources */,
+				223D92C61FCC8EE800E6E7EE /* One Republic - Secrets.mp3 in Resources */,
+				223D92C51FCC8EE800E6E7EE /* One Republic - Good Life.mp3 in Resources */,
 				22C0059E1FB86E6C0067DF8A /* Main.storyboard in Resources */,
-				22C005B71FB873010067DF8A /* One Republic - Counting Stars.mp3 in Resources */,
+				223D92A71FCC7FDC00E6E7EE /* papers.co-am22-tycho-art-cover-music-minimal-art-dark-33-iphone6-wallpaper.jpg in Resources */,
+				223D92C71FCC8EE800E6E7EE /* One Republic - Stop And Stare.mp3 in Resources */,
+				223D92BE1FCC8EE800E6E7EE /* One Republic - All Fall Down.mp3 in Resources */,
+				223D92BC1FCC8EE800E6E7EE /* One Republic - Counting Stars.mp3 in Resources */,
+				223D92C11FCC8EE800E6E7EE /* One Republic - Dreaming Out Loud.mp3 in Resources */,
+				223D92C21FCC8EE800E6E7EE /* One Republic - Say (All I Need).mp3 in Resources */,
+				223D92C01FCC8EE800E6E7EE /* One Republic - All The Right Moves.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
