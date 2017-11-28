@@ -6,6 +6,7 @@
 ### Description: Simple vk music app
 
 ### Sketch: ![alt text](https://github.com/coverss/IOS/blob/master/IMG_2145.PNG)
+![alt text](https://github.com/coverss/IOS/blob/master/IMG_2146.PNG)
 
 ### UML Diagram: ![alt text](https://github.com/coverss/IOS/blob/master/1.png)
 
