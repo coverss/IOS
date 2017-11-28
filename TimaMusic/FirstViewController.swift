@@ -9,24 +9,23 @@
 import UIKit
 import AVFoundation
 
-var songs:[String] = []
-var audioPlayer = AVAudioPlayer()
-var thisSong = 0
-var audioStuffed = false
 
-class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, AVAudioPlayerDelegate {
+ 
     
     @IBOutlet weak var myTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return songs.count
+        AudioPlayer.shared.delegate = self
+        return AudioPlayer.shared.songs.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        cell.textLabel?.text = songs[indexPath.row]
+        cell.textLabel?.text = AudioPlayer.shared.songs[indexPath.row]
         return cell
     }
     
@@ -34,11 +33,11 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     {
         do
         {
-            let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
-            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath:audioPath!) as URL)
-            audioPlayer.play()
-            thisSong = indexPath.row
-            audioStuffed = true
+            let audioPath = Bundle.main.path(forResource: AudioPlayer.shared.songs[indexPath.row], ofType: ".mp3")
+            try AudioPlayer.shared.audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath:audioPath!) as URL)
+            AudioPlayer.shared.audioPlayer.play()
+            AudioPlayer.shared.thisSong = indexPath.row
+            AudioPlayer.shared.audioStuffed = true
         }
         catch
         {
@@ -48,44 +47,17 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        gettingSongName()
+        AudioPlayer.shared.gettingSongName()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    func gettingSongName()
-    {
-        let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
-        
-        do
-        {
-            let songPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
-            
-            for song in songPath
-            {
-                var mySong = song.absoluteString
-                
-                if mySong.contains(".mp3")
-                {
-                    let findString = mySong.components(separatedBy: "/")
-                    mySong = findString[findString.count-1]
-                    mySong = mySong.replacingOccurrences(of: "%20", with: " ")
-                    mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
-                    songs.append(mySong)
-                    
-                }
-            }
-                myTableView.reloadData()
-        }
-        catch
-        {
-            
-        }
+    func updateTable() {
+        myTableView.reloadData()
     }
-
+    
 
 }
 
